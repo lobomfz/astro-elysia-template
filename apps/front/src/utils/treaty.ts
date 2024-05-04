@@ -1,7 +1,7 @@
 import { treaty } from "@elysiajs/eden";
 import type { App } from "@api/app";
 
-export const api = treaty<App>(import.meta.env.API_URL);
+export const api = treaty<App>("http://localhost:3000");
 
 export async function getRes<
 	T extends Promise<{
