@@ -1,0 +1,20 @@
+---
+import { SolidEntry } from "../components/Hello";
+import "../styles/base.css";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<div>
+			<h1>Astro + Elysia + Solid Query</h1>
+
+			<SolidEntry client:load />
+		</div>
+	</body>
+</html>

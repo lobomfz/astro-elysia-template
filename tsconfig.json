@@ -1,0 +1,37 @@
+{
+	"compilerOptions": {
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"target": "ESNext",
+		"lib": ["ESNext", "DOM"],
+		"module": "ESNext",
+		"rootDir": "apps",
+		"moduleResolution": "Bundler",
+		"baseUrl": "apps",
+		"outDir": "./bin",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"skipLibCheck": true,
+		"allowJs": false,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"incremental": true,
+		"isolatedModules": true,
+		"resolveJsonModule": true,
+		"strictNullChecks": true,
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true,
+		"noEmit": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noUncheckedIndexedAccess": true,
+		"paths": {
+			"@api/*": ["api/src/*"],
+			"@utils/*": ["api/src/utils/*"]
+		}
+	},
+	"include": ["apps"]
+}

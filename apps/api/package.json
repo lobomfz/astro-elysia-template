@@ -1,0 +1,16 @@
+{
+  "name": "@lobomfz/api",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "author": "lobomfz",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": { "@elysiajs/cors": "^1.0.2" },
+  "scripts": {
+    "dev": "bun --watch ./src/app.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.1"
+  }
+}
